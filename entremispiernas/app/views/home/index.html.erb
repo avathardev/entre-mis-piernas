@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>¡Entre mis piernas!</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    </head> 
+    <body>
+        <div class="container">
+        <header>
+        <%= render :partial => "navbar" %>
+          </header>
+          <main class="wrap">
+            <h1>Entre mis piernas <small>Donde los textos se hacen poemas</small></h1>
+            <div class="row">
+            <section class="col-md-4">
+                <%= render :partial => "textarea" %>
+                    </section>
+                    <section class="col-md-8">
+            <%= render :partial => "entrejambement" %>
+                </section>
+              </div>
+          </main>
+
+          <footer id="footer">
+            <div class="container">
+                (c) 2014. Todos los derechos reservados.
+            </div>
+          </footer> 
+        </div>
+    </body>
+</html>
