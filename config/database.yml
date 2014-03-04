@@ -12,7 +12,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: HEROKU_POSTGRESQL_COPPER_URL
+  database: HEROKU_POSTGRESQL_VIOLET_URL
   pool: 5
   password:
 
